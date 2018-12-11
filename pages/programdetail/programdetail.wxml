@@ -1,0 +1,25 @@
+<!--programdetail.wxml-->
+<view class="programdetail">
+  <z-tabBar tabs="{{$tabs}}"></z-tabBar>
+  <view class="action">
+    <view class="iconBox collection" bindtap='changeCollection'>
+      <view class="icon {{programInfo.state ? 'collect':''}}">
+      </view>
+      <text class="">收藏</text>
+    </view>
+    <view class="iconBox">
+      <view class="icon download">
+      </view>
+      <text class="">下载</text>
+    </view>
+  </view>
+  <view class='about'>
+    <view class="title">项目概况</view>
+    <text>{{programInfo.about}}</text>
+  </view>
+  <view class='detail'>
+    <view class="title">项目细节</view>
+    <text>{{programInfo.detail}}</text>
+  </view>
+  
+</view>

@@ -1,0 +1,14 @@
+<!--roadshowdetail.wxml-->
+<view class="roadshowdetail">
+  <z-tabBar tabs="{{$tabs}}"></z-tabBar>
+  <view class="content">
+    <view class="RStitle">路演安排</view>
+    <view class="time">时间：2018-11-19</view>
+    <view class="adress">地点：在哪里 在哪里 在哪里见过你</view>
+    <view class="intro">简介：feaser</view>
+  
+
+  </view>
+  
+  
+</view>

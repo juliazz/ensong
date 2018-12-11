@@ -1,0 +1,35 @@
+<!--program.wxml-->
+<view class="program">
+  <z-tabBar tabs="{{$tabs}}"></z-tabBar>
+  <z-title></z-title>
+  <view class="title">我的项目</view>
+  <view class="block" wx:for='{{programData}}' wx:key="{{index}}">
+    <view class="info">
+      <text class="name">{{item.name}}</text>
+      <!--<text class="time">{{item.time}}</text>-->
+      <text class="state {{item.stateClass}}">{{item.stateWord}}</text>
+    </view>
+
+    <view class="introBox">
+      <!--<text class="title">简介</text>-->
+      <view class="messageBox" bindtap='$go' data-path='programdetail/programdetail'>
+        <text>{{item.message}}</text>
+      </view>
+      <view class="iconLine">
+        <view class="iconBox" bindtap='changeCollection' data-index='{{index}}'>
+          <view class="icon {{item.collectstate ? 'uncollect':'collect'}}">
+          </view>
+          <text class="">{{item.collectstate? '收藏':'已收藏'}}</text>
+        </view>
+        <view class="iconBox" bindtap='clickDownLoad' data-index='{{index}}'>
+          <view class="icon down">
+          </view>
+          <text class="">下载</text>
+        </view>
+      </view>
+
+    </view>
+  </view>
+
+
+</view>

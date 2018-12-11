@@ -1,0 +1,20 @@
+{
+  "pages":[
+    "pages/index/index",
+    "pages/roadshow/roadshow",
+    "pages/roadshowdetail/roadshowdetail",
+    "pages/ensong/ensong",
+    "pages/collection/collection",
+    "pages/program/program",
+    "pages/programdetail/programdetail",
+    "pages/logs/logs",
+    "pages/intro/intro",
+    "pages/fellow/fellow"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "WeChat",
+    "navigationBarTextStyle":"black"
+  }
+}

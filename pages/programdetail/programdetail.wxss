@@ -1,0 +1,43 @@
+/**programdetail.wxss**/
+.programdetail {
+  padding: 10rpx 30rpx;
+
+ }
+.programdetail .action{
+  font-size: 28rpx;
+  height: 70rpx;
+  display: flex;
+
+ }
+ .programdetail .action .iconBox{
+  width: 200rpx;
+  height: 70rpx;
+  display: flex;
+  align-items: center;
+ }
+ .programdetail .action .iconBox .icon{
+  width: 60rpx;
+  margin-right: 4rpx;
+  height: 60rpx;
+  background: url('http://139.196.228.104:8045/images/11.png?v=1') no-repeat;
+  background-size: 100% 100%;
+ }
+.programdetail .action .iconBox .collect{
+  background: url('http://139.196.228.104:8045/images/22.png') no-repeat;
+  background-size: 100% 100%;
+
+}
+.programdetail .action .iconBox .download{
+  background: url('http://139.196.228.104:8045/images/33.png') no-repeat;
+  background-size: 100% 100%;
+
+}
+ .programdetail .title{
+    line-height: 70rpx;
+    font-size: 30rpx;
+ }
+ .programdetail .about, .detail text {
+    line-height: 35rpx;
+    font-size: 26rpx;
+    border-bottom: 1rpx solid #aaa;
+ }

@@ -1,0 +1,6 @@
+{
+  "navigationBarTitleText": "恩颂简介",
+  "usingComponents": {
+    "z-tabBar": "../../components/tabBar/index"
+  }
+}

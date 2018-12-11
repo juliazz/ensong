@@ -1,0 +1,21 @@
+/**roadshow.wxss**/
+.roadshow {
+ }
+.roadshow .content{
+  padding: 2vh 5vh;
+  
+ }
+.roadshow .content .RStitle{
+    line-height: 70rpx;
+    font-size: 35rpx;
+    font-weight: 600;
+ }
+ .roadshow .content .block{
+   padding: 1vh;
+    border-top: 1rpx solid #aaa;
+    border-bottom: 1rpx solid #aaa;
+ }
+ .roadshow .content .block  text{
+    display: block;
+    font-size: 28rpx;
+ } 

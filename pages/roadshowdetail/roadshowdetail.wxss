@@ -1,0 +1,15 @@
+/**roadshowdetail.wxss**/
+.roadshowdetail {
+ }
+.roadshowdetail .content{
+  padding: 2vh 5vh;
+ }
+.roadshowdetail .content .RStitle{
+    line-height: 70rpx;
+    font-size: 35rpx;
+    font-weight: 600;
+ }
+.roadshowdetail .content {
+    line-height: 70rpx;
+    font-size: 35rpx;
+ }

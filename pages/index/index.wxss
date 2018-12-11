@@ -1,0 +1,31 @@
+/**index.wxss**/
+.index {
+ }
+
+.EStitle {
+   height: 15vh;
+   line-height: 15vh;
+   width: 100vw;
+   text-align: center;
+   font-size: 30rpx;
+   font-weight: 500;
+   border-top: 1rpx solid #aaa;
+}
+
+.ESInfo {
+  height: 80vh;
+  width: 100vw;
+  box-sizing: border-box;
+  border-top: 1rpx solid #aaa;
+  padding: 10rpx 30rpx;
+  
+}
+.ESInfo text{
+  line-height: 38rpx;
+  font-size: 24rpx;
+  display: block;
+}
+.ESInfo .line{
+  border-bottom: 1rpx solid #aaa;
+  padding: 6rpx;
+}

@@ -1,0 +1,6 @@
+{
+    "navigationBarTitleText": "一阳指",
+    "usingComponents": {
+        "z-tabBar": "../../components/tabBar/index"
+    }
+}

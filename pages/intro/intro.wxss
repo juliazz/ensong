@@ -1,0 +1,30 @@
+/**intro.wxss**/
+.intro{
+ border-top: 1rpx solid #aaa;
+}
+.intro .imgbox{
+  margin-top: 3vh;
+  height: 35vh;
+  padding: 2vh;
+  width: 100vw;
+  box-sizing: border-box;
+}
+.intro .imgbox image{
+  height: 100%;
+  width: 100%;
+}
+.intro .textbox{
+  margin-top: 5vh;
+  border-top: 1rpx solid #aaa;
+  height: 35vh;
+  padding: 2vh;
+  width: 100vw;
+  box-sizing: border-box;
+}
+.intro .textbox text{
+  display: block;
+  border-bottom: 1rpx solid #aaa;
+  line-height: 50rpx;
+  font-size: 28rpx;
+
+}

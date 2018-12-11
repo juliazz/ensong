@@ -1,0 +1,3 @@
+<view class="title">
+<image src='../../src/images/title.png' mode='scaleToFill'></image>
+</view>

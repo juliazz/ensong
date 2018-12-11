@@ -1,0 +1,7 @@
+{
+  "navigationBarTitleText": "项目信息",
+  "usingComponents": {
+    "z-tabBar": "../../components/tabBar/index",
+    "z-title": "../../components/title/index"
+  }
+}

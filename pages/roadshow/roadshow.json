@@ -1,0 +1,6 @@
+{
+  "navigationBarTitleText": "路演安排",
+  "usingComponents": {
+    "z-tabBar": "../../components/tabBar/index"
+  }
+}

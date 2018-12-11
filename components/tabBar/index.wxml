@@ -1,0 +1,9 @@
+
+<view wx:if="{{show}}" class="tabs {{$isIpx ? 'isIpx' : ''}}">
+  <view wx:for="{{tabs}}" wx:key="index" data-url="{{item.path}}" bindtap="navigaTo" class="tab-item">
+    <view class="tab-box {{item.active ? 'active' : ''}}">
+      <view wx:if="{{showIcon}}" class="icon icon-{{item.name}} icon-{{item.name}}-active"></view>
+      <view wx:if="{{showText}}" class="tab-title">{{item.title}}</view>
+    </view>
+  </view>
+</view>

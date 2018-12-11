@@ -1,0 +1,6 @@
+{
+  "navigationBarTitleText": "成为fellow",
+  "usingComponents": {
+    "z-tabBar": "../../components/tabBar/index"
+  }
+}

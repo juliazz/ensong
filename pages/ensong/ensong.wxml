@@ -1,0 +1,28 @@
+<!--index.wxml-->
+<view class="index">
+  <z-tabBar tabs="{{$tabs}}"></z-tabBar>
+  <view class="EStitle" bindtap="$go" data-path='intro/intro'>恩颂简介</view>
+  <view class="EStitle" bindtap="$go" data-path='fellow/fellow'>成为 FELLOW</view>
+  <view class="ESInfo">
+    <view class="line">
+      <text class='infoTitle'>地址|Address</text>
+      <text class='infoContent'>上海长宁区</text>
+    </view>
+    <view class="line">
+      <text class='infoTitle'>电话|Telphones</text>
+      <text class='infoContent'>1234567890</text>
+    </view>
+    <view class="line">
+      <text class='infoTitle'>邮箱|E-mail</text>
+      <text class='infoContent'>1234567890@qq.com</text>
+    </view>
+    <view class="line">
+      <text class='infoTitle'>官方地址</text>
+      <text class='infoContent'>www.1234567890@abc.com</text>
+    </view>
+    
+    
+    
+  </view>
+  
+</view>

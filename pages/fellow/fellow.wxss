@@ -1,0 +1,30 @@
+/**fellow.wxss**/
+.fellow{
+ border-top: 1rpx solid #aaa;
+}
+.fellow .imgbox{
+  margin-top: 3vh;
+  height: 35vh;
+  padding: 2vh;
+  width: 100vw;
+  box-sizing: border-box;
+}
+.fellow .imgbox image{
+  height: 100%;
+  width: 100%;
+}
+.fellow .textbox{
+  margin-top: 5vh;
+  border-top: 1rpx solid #aaa;
+  height: 35vh;
+  padding: 2vh;
+  width: 100vw;
+  box-sizing: border-box;
+}
+.fellow .textbox text{
+  display: block;
+  border-bottom: 1rpx solid #aaa;
+  line-height: 50rpx;
+  font-size: 28rpx;
+
+}

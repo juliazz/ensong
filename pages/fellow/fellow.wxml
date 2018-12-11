@@ -1,0 +1,13 @@
+<!--fellow.wxml-->
+<view class="fellow">
+  <z-tabBar tabs="{{$tabs}}"></z-tabBar>
+  <view class='imgbox'>
+    <image src='../../src/images/3.jpg' mode='scaleToFill'></image>
+  </view>
+  <view class='textbox'>
+    <text class='line'>我有一头小毛炉</text>
+    <text class='line'>我有一头小毛炉</text>
+    <text class='line'>有一天我心血来潮</text>
+    <text class='line'>骑着去赶集~</text>
+  </view>
+</view>

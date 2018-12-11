@@ -1,0 +1,25 @@
+<!--index.wxml-->
+<view class="roadshow">
+  <z-tabBar tabs="{{$tabs}}"></z-tabBar>
+  <view class="content">
+    <view class="RStitle">路演安排</view>
+    <view class="block" bindtap="toRoadShowDetail" data-showid='1'>
+      <text>2018-11-11-19:00</text>
+      <text>上海市虹口区*********</text>
+      <text>项目：#######################</text>
+    </view>
+    <view class="block" bindtap="toRoadShowDetail" data-showid='2'>
+      <text>2018-11-11-19:00</text>
+      <text>上海市虹口区*********</text>
+      <text>项目：#######################</text>
+    </view>
+    <view class="block" bindtap="toRoadShowDetail" data-showid='2'>
+      <text>2018-11-11-19:00</text>
+      <text>上海市虹口区*********</text>
+      <text>项目：#######################</text>
+    </view>
+
+  </view>
+  
+  
+</view>
